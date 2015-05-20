@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script src="assets/js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min3.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker3.min.css">
+	<script src="assets/js/bootstrap.min3.js"></script>
+	<script src="assets/js/bootstrap-datepicker.min.js"></script>
+</head>
+<body>
+	<div class="well" id="sandbox-container">
+		<div class="input-daterange input-group" id="datepicker">
+			<input type="text" class="input-sm form-control" name="start" />
+			<span class="input-group-addon">to</span>
+			<input type="text" class="input-sm form-control" name="end" />
+		</div>
+	</div>
+	<script>
+		$('#sandbox-container .input-daterange').datepicker({
+			clearBtn: true,
+			autoclose: true,
+			todayHighlight: true
+		});
+	</script>
+</body>
+</html>
