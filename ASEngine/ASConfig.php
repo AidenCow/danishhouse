@@ -14,24 +14,24 @@ define('BOOTSTRAP_VERSION', 3);
 
 define('WEBSITE_NAME', "Danish House");
 
-define('WEBSITE_DOMAIN', "http://danishhouse.com.my");
+define('WEBSITE_DOMAIN', "http://danishhouse.herokuapp.com");
 
 //it can be the same as domain (if script is placed on website's root folder) 
 //or it can cotain path that include subfolders, if script is located in some subfolder and not in root folder
-define('SCRIPT_URL', "http://danishhouse.com.my/danishhouse/");
+define('SCRIPT_URL', "http://danishhouse.herokuapp.com/");
 
 
 //DATABASE CONFIGURATION
 
-define('DB_HOST', "localhost"); 
+define('DB_HOST', "us-cdbr-iron-east-02.cleardb.net"); 
 
 define('DB_TYPE', "mysql"); 
 
-define('DB_USER', "root"); 
+define('DB_USER', "b08d637e1621ae"); 
 
-define('DB_PASS', "root"); 
+define('DB_PASS', "00a1c8d9"); 
 
-define('DB_NAME', "danishhouse"); 
+define('DB_NAME', "heroku_4b4e8497f495af0"); 
 
 
 //SESSION CONFIGURATION
